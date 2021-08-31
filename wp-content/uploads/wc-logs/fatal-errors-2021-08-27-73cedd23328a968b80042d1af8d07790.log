@@ -1,0 +1,372 @@
+2021-08-27T13:05:59+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:11:08+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:16:01+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:20:58+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:25:01+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-08-27T13:2...', 'cartflows')
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1630070701, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(80): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(61): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-order.php(1608): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\gateways\bacs\class-wc-gateway-bacs.php(375): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(980): WC_Gateway_BACS->process_payment(2829)
+#12 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1195): WC_Checkout->process_order_payment(2829, 'bacs')
+#13 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\wordpress-572-2\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\wordpress-572-2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\wordpress-572-2\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php pada baris 147
+
+2021-08-27T13:25:49+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-08-27T13:2...', 'cartflows')
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1630070749, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(80): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(61): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-order.php(1608): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\gateways\bacs\class-wc-gateway-bacs.php(375): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(980): WC_Gateway_BACS->process_payment(2830)
+#12 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1195): WC_Checkout->process_order_payment(2830, 'bacs')
+#13 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\wordpress-572-2\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\wordpress-572-2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\wordpress-572-2\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php pada baris 147
+
+2021-08-27T13:32:03+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:35:57+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:41:05+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:46:12+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:51:36+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T13:54:30+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-08-27T13:5...', 'cartflows')
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1630072470, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(80): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(61): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-order.php(1608): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\gateways\bacs\class-wc-gateway-bacs.php(375): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(980): WC_Gateway_BACS->process_payment(2843)
+#12 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1195): WC_Checkout->process_order_payment(2843, 'bacs')
+#13 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\wordpress-572-2\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\wordpress-572-2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\wordpress-572-2\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php pada baris 147
+
+2021-08-27T13:55:58+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:01:02+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:06:27+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:11:15+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:16:05+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:22:13+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:26:15+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:35:42+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:37:30+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
+2021-08-27T14:41:31+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php on line 828 and defined in C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\core\base\document.php(828): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(121): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(15)
+#3 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#4 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#5 C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#6 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(292): WP_Background_Process->handle_cron_healthcheck()
+#7 C:\xampp\htdocs\wordpress-572-2\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress-572-2\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress-572-2\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#10 {main}
+  thrown di C:\xampp\htdocs\wordpress-572-2\wp-content\plugins\elementor\includes\managers\elements.php pada baris 68
+
